@@ -1,4 +1,39 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* Step 3 */
+body {
+    font-family: sans-serif; /* Example */
+    font-size: 16px;
+}
+
+/* Step 4 & 5 */
+header, nav {
+    background-color: #2c3e50; /* Ensure high contrast with text */
+}
+
+/* Step 6 */
+main {
+    background-color: #ffffff;
+    font-size: 1.1rem;
+}
+
+/* Step 7 */
+footer {
+    background-color: #eeeeee;
+}
+
+/* Step 8: Crucial for layout */
+li {
+    display: inline-block; /* Often used to make nav links horizontal */
+    width: 150px;
+}
+
+/* Step 9 */
+h1 {
+    text-align: center;
+    font-family: serif;
+    color: #333333;
+}
+
+/* Step 10 */
+p {
+    line-height: 1.6;
 }
